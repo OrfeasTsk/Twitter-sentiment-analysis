@@ -26,7 +26,7 @@ that you have tried.
 
 # Project 2 - Feed Forward Neural Networks
 
-### TF-IDF [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW2_Feed_Forward_NN_TFIDF.ipynb) &nbsp; GLOVE [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW2_Feed_Forward_NN_GLoVe.ipynb)
+### TF-IDF [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW2_Feed_Forward_NN_TFIDF.ipynb) &nbsp; GLOVE [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW2_Feed_Forward_NN_GLoVe.ipynb)
 
 Develop a vaccine sentiment classifier with 3 classes (neutral, anti-vax and pro-vax) using
 feed-forward neural networks and the datasets of the previous homework provided on eclass. We expect you to experiment with at least two models and compare them using
