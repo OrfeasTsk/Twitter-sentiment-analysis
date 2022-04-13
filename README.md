@@ -1,6 +1,3 @@
-# twitter-sentiment-analysis
-Twitter sentiment analysis using trending classification techniques. Each project implements a solution for the same classification task based on a twitter dataset for covid-19
-
 # Project 1 - Softmax Regression 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW1_Softmax_Regression.ipynb)
