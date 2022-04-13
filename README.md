@@ -1,7 +1,7 @@
 # twitter-sentiment-analysis
 Twitter sentiment analysis using trending classification techniques. Each project implements a solution for the same classification task based on a twitter dataset for covid-19
 
-# Project 1
+# Project 1 - Softmax Regression
 In this exercise you will develop a vaccine sentiment classifier using softmax regression.
 The classifier will be trained on twitter data and will distinguish 3 classes (neutral, antivax and pro-vax). You will train your classifier using the datasets provided. The datasets are CSV files with the tweet texts and the labels 0
 (neutral), 1 (anti-vax) or 2 (pro-vax). The first dataset is the training dataset and the
@@ -21,7 +21,7 @@ NLP project, to experiment with different options and to deliver a report that p
 your solution along with a brief performance comparison between the different options
 that you have tried.
 
-# Project 2
+# Project 2 - Feed Forward Neural Networks
 
 Develop a vaccine sentiment classifier with 3 classes (neutral, anti-vax and pro-vax) using
 feed-forward neural networks and the datasets of the previous homework provided on eclass. We expect you to experiment with at least two models and compare them using
@@ -40,7 +40,7 @@ Also, compare your best model with the model you obtained using softmax regressi
 Homework 1. Your solution should be implemented in PyTorch and we expect your report
 to be well-documented.
 
-# Project 3
+# Project 3 - RNNs (Vanilla RNNs & LSTMs & GRUs)
 
 a. Develop a sentiment classifier with 3 classes (pro-vax, anti-vax, neutral) using a bidirectional stacked RNN with LSTM/GRU cells for the Twitter vaccine sentiment dataset of
 the previous two assignments. For the development of the models, you can experiment
@@ -60,7 +60,7 @@ documented.
 b. Add attention to the best model you developed in the previous question. Evaluate the
 improvements that you might have from its introduction.
 
-# Project 4
+# Project 4 - Transformers (BERT)
 
 Develop a sentiment classifier with 3 classes (pro-vax, anti-vax, neutral) by fine-tuning the
 pretrained BERT-base model available on [Hugging Face](https://huggingface.co/models). You have to compute precision, recall and F1 for each class.
