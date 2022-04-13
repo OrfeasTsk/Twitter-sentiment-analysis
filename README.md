@@ -1,7 +1,10 @@
 # twitter-sentiment-analysis
 Twitter sentiment analysis using trending classification techniques. Each project implements a solution for the same classification task based on a twitter dataset for covid-19
 
-# Project 1 - Softmax Regression
+# Project 1 - Softmax Regression 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW1_Softmax_Regression.ipynb)
+
 In this exercise you will develop a vaccine sentiment classifier using softmax regression.
 The classifier will be trained on twitter data and will distinguish 3 classes (neutral, antivax and pro-vax). You will train your classifier using the datasets provided. The datasets are CSV files with the tweet texts and the labels 0
 (neutral), 1 (anti-vax) or 2 (pro-vax). The first dataset is the training dataset and the
@@ -23,6 +26,8 @@ that you have tried.
 
 # Project 2 - Feed Forward Neural Networks
 
+### TF-IDF [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW2_Feed_Forward_NN_TFIDF.ipynb) &nbsp; GLOVE [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW2_Feed_Forward_NN_GLoVe.ipynb)
+
 Develop a vaccine sentiment classifier with 3 classes (neutral, anti-vax and pro-vax) using
 feed-forward neural networks and the datasets of the previous homework provided on eclass. We expect you to experiment with at least two models and compare them using
 F1 score, recall and precision. For the development of the models, you are expected to
@@ -41,6 +46,7 @@ Homework 1. Your solution should be implemented in PyTorch and we expect your re
 to be well-documented.
 
 # Project 3 - RNNs (Vanilla RNNs & LSTMs & GRUs)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW3_Vanilla_LSTM_GRU_RNNs.ipynb)
 
 a. Develop a sentiment classifier with 3 classes (pro-vax, anti-vax, neutral) using a bidirectional stacked RNN with LSTM/GRU cells for the Twitter vaccine sentiment dataset of
 the previous two assignments. For the development of the models, you can experiment
@@ -61,6 +67,7 @@ b. Add attention to the best model you developed in the previous question. Evalu
 improvements that you might have from its introduction.
 
 # Project 4 - Transformers (BERT)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrfeasTsk/twitter-sentiment-analysis/blob/main/AI2_HW4_BERT.ipynb)
 
 Develop a sentiment classifier with 3 classes (pro-vax, anti-vax, neutral) by fine-tuning the
 pretrained BERT-base model available on [Hugging Face](https://huggingface.co/models). You have to compute precision, recall and F1 for each class.
